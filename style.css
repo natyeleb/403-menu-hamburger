@@ -69,8 +69,16 @@ section a{
     transform-origin: right center;
     position: relative;
     top: 8px;
-    background-color: yellow;
+    background-color: yellow; 
 }
-@media{
+
+nav #desktop{
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: space-around;
+}
+
+@media( min-width:768px;){
     
 }
